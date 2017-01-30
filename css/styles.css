@@ -5,6 +5,20 @@
 
 
 
+/*------general style blocks-----*/
+.block-name{
+	font-family: "Segoe UI";
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+.block-name__line{
+	height: 2px;
+	width: 4%;
+	border: none;
+}
+
+/*------end general style blocks-----*/
 
 /*-----header------*/
 .header{
@@ -62,5 +76,44 @@
 	padding: 17px 25px;
 	background-color: #4a555d;
 }
-
 /*-----header-end----*/
+
+/*-----services-------*/
+.services{
+	background-color: #4bcaff;
+	padding: 80px 0px;
+}
+.services__block-name{
+	color: #fff;
+}
+.services__line_styles{
+	background-color: #fff;
+	margin-top: 10px;
+}
+.services-list{
+	padding-top: 40px;
+}
+.services-item{
+	display: inline-block;
+	width: 24%;
+	margin-right: 11px;
+}
+.services-item__title{
+	display: block;
+	color: #fff;
+	font-family: "Segoe UI";
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 25px 0px 25px;
+}
+.services-item__text{
+	color: #fff;
+	font-family: "Segoe UI";
+	font-size: 12px;
+	font-weight: bold;
+}
+.services-item_last{
+	margin: 0px;
+}
+/*------services-------*/
