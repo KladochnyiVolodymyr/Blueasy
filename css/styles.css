@@ -178,13 +178,13 @@
 .video__line_styles{
 	background-color: #fff;
 }
-.left-column{
+.video__left-column{
 	display: inline-block;
 	width: 40%;
 	vertical-align: top;
 	margin-right: 58px;
 }
-.right-column{
+.video__right-column{
 	display: inline-block;
 }
 .video-text__paragraph{
@@ -233,9 +233,49 @@
 	display: inline-block;
 	float: right;
 }
-.fa-twitter{
+.twitter-icon{
 	color: #fff;
 	font-size: 30px;
 }
-
 /*------end twitter----*/
+
+/*-------about john----*/
+.about-john{
+	background: url('../images/bg-photo.png')no-repeat center center;
+	background-size: cover; 
+	padding: 100px 0px 175px 0px;
+}
+.about-john__block-name{
+	color:#fff;
+	padding-bottom: 40px;
+}
+.about-john__line_styles{
+	background-color: #fff;
+}
+.about__left-column{
+	display: inline-block;
+	width: 49%;
+	margin-right: 30px;
+}
+.about__right-column{
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+.about__text{
+	color: #fff;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 35px;
+}
+.icon-styles{
+	color: #fff;
+	font-size: 30px;
+	border:2px solid #fff;
+	padding: 15px;
+	margin-right: 20px;
+}
+
+
+/*------end about john----*/
