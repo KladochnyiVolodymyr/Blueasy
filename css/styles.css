@@ -11,11 +11,13 @@
 	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: lighter;
+	display: inline-block;
 }
 .block-name__line{
 	height: 2px;
-	width: 4%;
+	width: 35%;
 	border: none;
+	margin-top: 10px;
 }
 
 /*------end general style blocks-----*/
@@ -39,11 +41,13 @@
 }
 .menu__item{
 	float: left;
-	margin-left: 50px;
+	margin-left: 30px;
 	padding-top: 5px;
 }
 .menu__link{
 	text-decoration: none;
+	border:2px solid rgba(255,255,255,0);
+	padding: 10px;
 }
 .menu__text{
 	color: #fff;
@@ -88,7 +92,6 @@
 }
 .services__line_styles{
 	background-color: #fff;
-	margin-top: 10px;
 }
 .services-list{
 	padding-top: 40px;
@@ -116,4 +119,50 @@
 .services-item_last{
 	margin: 0px;
 }
-/*------services-------*/
+/*------end services-------*/
+
+/*-----portfolio--------*/
+.portfolio{
+	padding: 80px 0px;
+}
+.portfolio__block-name{
+	color: #515f67;
+}
+.portfolio__line_styles{
+	background-color: #515f67;
+}
+.portfolio-nav{
+	float: right;
+}
+.portfolio-nav__item{
+	float: left;
+	margin-left: 55px;
+	padding-top: 12px;
+}
+.portfolio-nav__link{
+	text-decoration: none;
+}
+.portfolio-nav__text{
+	opacity: .9;
+	color: #515f67;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.portfolio-nav__link :hover{
+	color: #4bcaff;
+	border:2px solid #4bcaff;
+	padding: 10px;
+}
+.portfolio-photo{
+	margin-top: 80px;
+}
+.portfolio-photo__item{
+	margin: 0px 26px 30px 0px;
+	cursor: pointer;
+}
+.photo-item_last{
+	margin-right: 0px
+}
+/*-----end portfolio-----*/
