@@ -359,8 +359,37 @@
     padding: 12px;
     font-size: 24px;
     margin-bottom: 40px;
+    background: transparent;
+    border:2px solid #fff;
+    outline: none;
+    color: #fff;
+    font-family: "Segoe UI";
+	font-weight: bold;
 }
-
+.form__bottom{
+	width: 100%;
+	background: transparent;
+	border:2px solid #fff;
+    outline: none;
+    color: #fff;
+    font-family: "Segoe UI";
+	font-weight: bold;
+	font-size: 14px;
+	padding: 10px;
+	margin-bottom: 40px;
+}
+.form__submit{
+	color: #fff;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #4bcaff;
+	border:none;
+	width: 30%;
+	padding: 25px 0px;
+	outline: none;
+}
 /*-----end contact--------*/
 
 /*------footer--------*/
