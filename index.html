@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 	<header class="header"> 
@@ -35,18 +36,20 @@
 				</ul>
 			</div>
 		</div>
-		<div class="header-center container">
-			<div class="main-content">
-				<span class="main-content__text">
-					<span class="main-content__text_wrap">
-						"I'm looking for the unexpected.
+		<div class="header-center">
+			<div class="container">
+				<div class="main-content">
+					<span class="main-content__text">
+						<span class="main-content__text_wrap">
+							"I'm looking for the unexpected.
+						</span>
 					</span>
-				</span>
-				<span class="main-content__text">
-					<span class="main-content__text_wrap">
-						I'm looking for things I've never seen before."
+					<span class="main-content__text">
+						<span class="main-content__text_wrap">
+							I'm looking for things I've never seen before."
+						</span>
 					</span>
-				</span>
+				</div>
 			</div>
 		</div>	
 	</header>
@@ -88,37 +91,39 @@
 			</div>
 		</div>
 	</div>
-	<div class="portfolio container">
-		<div class="block-name portfolio__block-name">
-			<span class="block-name__text">Portfolio</span>
-			<hr class="block-name__line portfolio__line_styles">
-		</div>
-		<ul class="portfolio-nav">
-			<li class="portfolio-nav__item">
-				<a href="#" class="portfolio-nav__link">All</a>
-			</li>
-			<li class="portfolio-nav__item">
-				<a href="#" class="portfolio-nav__link">Panorams</a>
-			</li>
-			<li class="portfolio-nav__item">
-				<a href="#" class="portfolio-nav__link">Portraits</a>
-			</li>
-			<li class="portfolio-nav__item">
-				<a href="#" class="portfolio-nav__link">Macro</a>
-			</li>
-			<li class="portfolio-nav__item">
-				<a href="#" class="portfolio-nav__link">Journal</a>
-			</li>
-		</ul>
-		<div class="portfolio-photo">
-			<img class="portfolio-photo__item" src="images/photo1.png">
-			<img class="portfolio-photo__item" src="images/photo2.png">
-			<img class="portfolio-photo__item" src="images/photo3.png">
-			<img class="portfolio-photo__item photo-item_last" src="images/photo4.png">
-			<img class="portfolio-photo__item" src="images/photo4.png">
-			<img class="portfolio-photo__item" src="images/photo1.png">
-			<img class="portfolio-photo__item" src="images/photo4.png">
-			<img class="portfolio-photo__item photo-item_last" src="images/photo1.png">
+	<div class="portfolio">
+		<div class="container">
+			<div class="block-name portfolio__block-name">
+				<span class="block-name__text">Portfolio</span>
+				<hr class="block-name__line portfolio__line_styles">
+			</div>
+			<ul class="portfolio-nav">
+				<li class="portfolio-nav__item">
+					<a href="#" class="portfolio-nav__link">All</a>
+				</li>
+				<li class="portfolio-nav__item">
+					<a href="#" class="portfolio-nav__link">Panorams</a>
+				</li>
+				<li class="portfolio-nav__item">
+					<a href="#" class="portfolio-nav__link">Portraits</a>
+				</li>
+				<li class="portfolio-nav__item">
+					<a href="#" class="portfolio-nav__link">Macro</a>
+				</li>
+				<li class="portfolio-nav__item">
+					<a href="#" class="portfolio-nav__link">Journal</a>
+				</li>
+			</ul>
+			<div class="portfolio-photo">
+				<img class="portfolio-photo__item" src="images/photo1.png">
+				<img class="portfolio-photo__item" src="images/photo2.png">
+				<img class="portfolio-photo__item" src="images/photo3.png">
+				<img class="portfolio-photo__item photo-item_last" src="images/photo4.png">
+				<img class="portfolio-photo__item" src="images/photo4.png">
+				<img class="portfolio-photo__item" src="images/photo1.png">
+				<img class="portfolio-photo__item" src="images/photo4.png">
+				<img class="portfolio-photo__item photo-item_last" src="images/photo1.png">
+			</div>
 		</div>
 	</div>
 	<div class="video-block">
@@ -141,7 +146,7 @@
 				</div>
 			</div>
 			<div class="video__right-column">
-				<iframe src="https://player.vimeo.com/video/166930720" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe class="video__right-column_size" src="https://player.vimeo.com/video/166930720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
@@ -191,19 +196,21 @@
 			</div>
 		</div>
 	</div>
-	<div class="testimonials container">
-		<div class="block-name testimonials__block-name">
-			<span class="block-name__text">testimonials</span>
-			<hr class="block-name__line testimonials__line_styles">
-		</div>
-		<div class="testimonials-quotes">
-			<i class="fa fa-quote-right" aria-hidden="true"></i>
-		</div>
-		<div class="testimonials-content">
-			<p class="testimonials-content__text">
-				Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.
-			</p>
-			<span class="testimonials-content__author">-Walter White</span>
+	<div class="testimonials">
+		<div class="container">
+			<div class="block-name testimonials__block-name">
+				<span class="block-name__text">testimonials</span>
+				<hr class="block-name__line testimonials__line_styles">
+			</div>
+			<div class="testimonials-quotes">
+				<i class="fa fa-quote-right" aria-hidden="true"></i>
+			</div>
+			<div class="testimonials-content">
+				<p class="testimonials-content__text">
+					Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.
+				</p>
+				<span class="testimonials-content__author">-Walter White</span>
+			</div>
 		</div>
 	</div>
 	<div class="contact">
