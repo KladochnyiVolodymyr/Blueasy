@@ -21,14 +21,51 @@
 	.about__left-column{
 		width: 48%;
 	}
-
 	.form__bottom{
 		width: 95%;
 	}
 }
 
 @media screen and (max-width: 992px) and (min-width: 769px) {
-
+	.container{
+		width: 730px;
+	}
+	.main-content__text{
+		font-size: 39px;
+	}
+	.services-item{
+		width: 23%;
+	}
+	.portfolio-nav__item{
+		margin-left: 15px;
+	}
+	.portfolio-photo{
+		text-align: center;
+	}
+	.photo-item_last{
+		margin: 0px 26px 30px 0px;
+	}
+	.video__left-column{
+		display: block;
+		width: 100%;
+	}
+	.video__right-column{
+		margin-top: 40px;
+    	margin-left: 5%;
+	}
+	.form__bottom{
+		width: 95%;
+	}
+	.about__left-column{
+		width: 100%;
+		margin-right: 0px;
+	}
+	.about__right-column{
+		width: 100%;
+	}
+	.about-john-content{
+		text-align: center;
+	}
 }
 
 @media screen and (max-width: 768px) and (min-width: 480px) {
