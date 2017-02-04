@@ -46,8 +46,6 @@
 	text-decoration: none;
 	border:2px solid rgba(255,255,255,0);
 	padding: 10px;
-}
-.menu__text{
 	color: #fff;
 	font-family: "Segoe UI";
 	font-size: 14px;
@@ -55,10 +53,9 @@
 	text-transform: uppercase;
 	text-decoration: none;
 }
-.menu__link :hover{
+.menu__link:hover{
 	color: #4bcaff;
-	border:2px solid #4bcaff;
-	padding: 10px;
+	border-color:#4bcaff;
 }
 .header-center{
 	padding: 240px 0px;
@@ -135,24 +132,23 @@
 }
 .portfolio-nav__item{
 	float: left;
-	margin-left: 55px;
+	margin-left: 40px;
 	padding-top: 12px;
 }
 .portfolio-nav__link{
 	text-decoration: none;
-}
-.portfolio-nav__text{
 	opacity: .9;
 	color: #515f67;
 	font-family: "Segoe UI";
 	font-size: 14px;
 	font-weight: bold;
 	text-transform: uppercase;
-}
-.portfolio-nav__link :hover{
-	color: #4bcaff;
-	border:2px solid #4bcaff;
+	border:2px solid rgba(255,255,255,0);
 	padding: 10px;
+}
+.portfolio-nav__link:hover{
+	color: #4bcaff;
+	border-color:#4bcaff;
 }
 .portfolio-photo{
 	margin-top: 80px;
@@ -389,6 +385,7 @@
 	width: 30%;
 	padding: 25px 0px;
 	outline: none;
+	cursor: pointer;
 }
 /*-----end contact--------*/
 
