@@ -341,7 +341,8 @@
 .feedback__right-column{
 	display: inline-block;
 	width: 50%;
-	padding-top: 15px; 
+	padding-top: 15px;
+	float: right; 
 }
 .feedback__right-column_text{
 	color: #fff;
