@@ -7,8 +7,9 @@
     clear: both;
     display: table;
 }
-
-
+.slicknav_menu{
+	display: none;
+}
 /*------general style blocks-----*/
 .block-name{
 	font-family: "Segoe UI";

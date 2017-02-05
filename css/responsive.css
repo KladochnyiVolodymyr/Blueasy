@@ -156,5 +156,119 @@
 }
 
 @media screen and (max-width: 479px) and (min-width: 320px) {
-
+	.container{
+		width: 95%;
+	}
+	.header-top{
+		text-align: center;
+		padding: 30px 0px
+	}
+	.slicknav_menu{
+		display: block;
+		background: none;
+	}
+	.slicknav_btn{
+		background-color: #4bcaff;
+		position: relative;
+    	right: 50%;
+    	margin-right: -58px;
+    	padding: 16px 20px;
+    	font-size: 20px;
+    	margin-top: 30px;
+	}
+	.menu__item{
+		float: none;
+		margin-left: 0px;
+	}
+	.menu__link{
+		border: none;
+		outline: none;
+	}
+	.menu__link:hover{
+		border:none;
+	}
+	.slicknav_nav a:hover{
+		color: #4bcaff;
+		background: none;
+	}	
+	.menu{
+		display: none;
+	}
+	.header-center{
+		padding: 100px 0px;
+	}
+	.main-content__text{
+		font-size: 25px;
+	}
+	.services-item{
+		width: 100%;
+		margin-right: 0px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	.portfolio-photo{
+		text-align: center;
+	}
+	.portfolio-photo__item{
+		margin:  0px 0px 30px 0px;
+	}
+	.photo-item_last{
+		margin:  0px 0px 30px 0px;
+	}
+	.video__left-column{
+		width: 100%;
+    	margin-right: 0px;
+	}
+	.video__right-column{
+		margin-top: 40px;
+    	position: relative;
+    	left: 50%;
+    	margin-left: -142px;
+	}
+	.video__right-column_size{
+		width: 280px;
+    	height: 200px;
+	}
+	.twitter-content__text{
+		font-size: 20px;
+	}
+	.about__left-column{
+		width: 100%;
+		margin-right: 0px;
+	}
+	.about__right-column{
+		width: 100%;
+	}
+	.about-john-content{
+		text-align: center;
+	}
+	.icon-styles{
+		margin-right: 3px;
+	}
+	.testimonials-content__text{
+		font-size: 20px;
+	}
+	.feedback__left-column{
+		width: 100%;
+	}
+	.feedback__right-column{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.form__bottom{
+		width: 92%;
+	}
+	.form-input__left{
+		width: 90%;
+	}
+	.form__submit{
+		width: 100%;
+	}
+	.footer-nav__item{
+		padding-right: 8px;
+    	margin-right: 8px;
+	}
+	.сopyright{
+		display: none;
+	}
 }
