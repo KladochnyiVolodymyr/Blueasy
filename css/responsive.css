@@ -97,12 +97,12 @@
 	.portfolio-nav{
 		float: none;
 		margin-top: 10px;
-		position: relative;
-    	left: 50%;
-    	margin-left: -215px;
+		text-align: center;
 	}
 	.portfolio-nav__item{
 		margin-left: 0px;
+		float: none;
+		display: inline-block;
 	}
 	.portfolio-photo{
 		text-align: center;
@@ -175,6 +175,13 @@
     	padding: 16px 20px;
     	font-size: 20px;
     	margin-top: 30px;
+	}
+	.slicknav_menutxt{
+		color: #fff;
+		font-family: "Segoe UI";
+		font-size: 19px;
+		font-weight: bold;
+		text-transform: uppercase;
 	}
 	.menu__item{
 		float: none;

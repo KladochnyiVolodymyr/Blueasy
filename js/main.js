@@ -5,3 +5,9 @@ $(function(){
     	label:'Menu'
     });
 });
+
+$('.portfolio-photo').lightGallery({
+    thumbnail:true,
+    animateThumb: false,
+    showThumbByDefault: false
+}); 
