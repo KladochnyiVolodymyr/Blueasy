@@ -6,8 +6,3 @@ $(function(){
     });
 });
 
-$('.portfolio-photo').lightGallery({
-    thumbnail:true,
-    animateThumb: false,
-    showThumbByDefault: false
-}); 
