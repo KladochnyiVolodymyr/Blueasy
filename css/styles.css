@@ -10,6 +10,9 @@
 .slicknav_menu{
 	display: none;
 }
+figure{
+	display: inline-block;
+}
 /*------general style blocks-----*/
 .block-name{
 	font-family: "Segoe UI";
