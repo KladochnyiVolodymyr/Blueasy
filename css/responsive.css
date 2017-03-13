@@ -163,30 +163,40 @@
 		text-align: center;
 		padding: 30px 0px
 	}
-	.slicknav_menu{
+	.menu{
 		display: block;
-		background: none;
-	}
-	.slicknav_btn{
-		background-color: #4bcaff;
-		position: relative;
-    	right: 50%;
-    	margin-right: -58px;
-    	padding: 16px 20px;
-    	font-size: 20px;
-    	margin-top: 30px;
-	}
-	.slicknav_menutxt{
-		color: #fff;
-		font-family: "Segoe UI";
-		font-size: 19px;
-		font-weight: bold;
-		text-transform: uppercase;
+		float: none;
 	}
 	.menu__item{
 		float: none;
 		margin-left: 0px;
 	}
+	.menu__item_icon{
+		font-size: 20px;
+	}
+	.menu li:not(:first-child) {
+		display: none;
+	}
+	.menu li:first-child{
+    	float: left;
+  	}
+	.menu li:last-child{
+    	float: right;
+    	display: block;
+  	}
+	.menu.responsive {
+		position: relative;
+	}
+  	.menu.responsive .menu__item_bars {
+    	position: absolute;
+    	right: 0;
+    	top: 0;
+  	}
+  	.menu.responsive li {
+    	float: none;
+    	display: block;
+    	text-align: left;
+  	}
 	.menu__link{
 		border: none;
 		outline: none;
@@ -197,9 +207,6 @@
 	.slicknav_nav a:hover{
 		color: #4bcaff;
 		background: none;
-	}	
-	.menu{
-		display: none;
 	}
 	.header-center{
 		padding: 100px 0px;

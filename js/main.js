@@ -1,10 +1,13 @@
 
-$(function(){
-    $('.menu').slicknav({
-    	prependTo:'.mobile-menu',
-    	label:'Menu'
-    });
-});
+function myFunction() {
+    var x = document.getElementById("myMenu");
+    if (x.className === "menu clearfix") {
+        x.className += " responsive";
+    } else {
+        x.className = "menu clearfix";
+    }
+}
+
 
 var initPhotoSwipeFromDOM = function(gallerySelector) {
 
