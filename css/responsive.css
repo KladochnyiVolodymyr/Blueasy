@@ -204,10 +204,6 @@
 	.menu__link:hover{
 		border:none;
 	}
-	.slicknav_nav a:hover{
-		color: #4bcaff;
-		background: none;
-	}
 	.header-center{
 		padding: 100px 0px;
 	}

@@ -6,6 +6,13 @@ function myFunction() {
     } else {
         x.className = "menu clearfix";
     }
+
+    var a = document.getElementById("hamburger");
+    if (a.className === "hamburger hamburger--3dx") {
+        a.className += " is-active";
+    } else {
+        a.className = "hamburger hamburger--3dx";
+    }
 }
 
 

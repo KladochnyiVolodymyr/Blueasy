@@ -52,6 +52,9 @@ figure{
 .menu__item_bars{
 	display: none;
 }
+.hamburger{
+	outline: none;
+}
 .menu__link{
 	display: block;
 	text-decoration: none;
